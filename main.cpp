@@ -47,6 +47,9 @@ void PrintIntro()
 	std::cout << "    ^      ^              ^      ^ " << std::endl;
 	std::cout << "Can you guess the " << WORD_LENGTH << " letter isogram I'm thinking of? \n";
 	std::cout << std::endl;
+	std::cout << "If you get a bull that means there's a letter in the correct place \n";
+	std::cout << "If you get a cow then there is a correct letter but it's in the wrong place.\n";
+	std::cout << std::endl;
 	return;
 }
 
